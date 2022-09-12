@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../assets/fonts/Gilroy-Medium.ttf);
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+body {
+    font-family: 'Gilroy';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: white;
+    height: 88px;
+    padding: 0 248px 0 248px;
+}
+
+.header__container {
+    max-width: 1200px;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #828282;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.nav__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #070707;
+}
+
+.dmitry-petrov {
+    padding: 0 248px 100px 248px;
+    margin-top: 40px;
+    max-height: 680px;
+}
+
+.dmitry-petrov__wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.dmitry-petrov__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.description_name {
+    font-family: 'Gilroy';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin-right: 20px;
+}
+
+.description_about {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 60px;
+}
+
+.description_lang {
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    transform: rotate(-90deg);
+    padding-right: 60px;
+}
+
+.description_lang span {
+    color: #828282;
+}
+
+.dmitry-petrov__foto {
+    width: 943.61px;
+    height: 387px;
+    padding-top: 0;
+}
+
+.about-me {
+    height: 506px;
+    background: #F6F6F6;
+    padding-top: 120px;
+}
+
+.about-me__heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about-me__parag {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
