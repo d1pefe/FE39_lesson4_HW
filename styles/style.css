@@ -27,7 +27,6 @@ body {
 }
 
 .header__container {
-    max-width: 1200px;
     margin: 0;
     padding: 0;
     border-bottom: 1px solid #828282;
@@ -85,6 +84,7 @@ body {
     line-height: 22px;
     color: #070707;
     padding-top: 60px;
+    text-align: center;
 }
 
 .description_lang {
@@ -92,7 +92,7 @@ body {
     line-height: 20px;
     color: #070707;
     transform: rotate(-90deg);
-    padding-right: 60px;
+    padding-right: 40px;
 }
 
 .description_lang span {
@@ -123,4 +123,24 @@ body {
     line-height: 22px;
     text-align: center;
     color: #070707;
+}
+
+.skills {
+    height: 610px;
+    background: #FFFFFF;
+    padding-top: 117px;
+}
+
+.skills__heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills__parag {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 69px;
 }
