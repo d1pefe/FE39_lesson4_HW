@@ -151,3 +151,10 @@ body {
     align-items: center;
 }
 
+.table-tr__text {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
