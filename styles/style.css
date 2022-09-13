@@ -144,3 +144,10 @@ body {
     text-align: center;
     margin-top: 69px;
 }
+
+.skill-table {
+    height: 205px;
+    display: flex;
+    align-items: center;
+}
+
