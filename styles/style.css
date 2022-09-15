@@ -145,16 +145,77 @@ body {
     margin-top: 69px;
 }
 
-.skill-table {
-    height: 205px;
+.skills-flex__img {
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    margin-bottom: 30px;
 }
 
-.table-tr__text {
+.skills-flex__parag {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    margin-bottom: 40px;
+}
+
+.skills-flex__parag p {
     font-family: 'Gilroy';
     font-size: 14px;
     line-height: 17px;
     text-align: center;
     color: #828282;
+}
+
+.skills-flex__stars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+}
+
+.portfolio {
+    height: auto;
+    background: #F6F6F6;
+    padding-top: 112px;
+}
+
+.portfolio-heading {
+    font-family: 'Gilroy';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.portfolio-flex__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 47px 0 100px 0;
+}
+
+.portfolio-a__flex {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 45px;
+}
+
+.portfolio-flex__block:last-child {
+    margin-bottom: 95px;
+}
+
+.contacts {
+    
 }
