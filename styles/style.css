@@ -21,7 +21,7 @@ body {
 }
 
 .header {
-    background-color: white;
+    background-color: #ffffff;
     height: 88px;
     padding: 0 248px 0 248px;
 }
@@ -55,7 +55,6 @@ body {
 .dmitry-petrov {
     padding: 0 248px 100px 248px;
     margin-top: 40px;
-    max-height: 680px;
 }
 
 .dmitry-petrov__wrapper {
