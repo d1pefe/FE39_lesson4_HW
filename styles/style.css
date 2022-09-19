@@ -94,8 +94,18 @@ body {
     padding-right: 40px;
 }
 
-.description_lang span {
+.description_lang-ru {
     color: #828282;
+    text-decoration: none;
+}
+
+.description_lang-ru:hover {
+    color: #070707;
+}
+
+.description_lang-en {
+    color: #070707;
+    text-decoration: none;
 }
 
 .dmitry-petrov__foto {
