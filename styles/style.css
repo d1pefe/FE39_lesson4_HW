@@ -1,0 +1,307 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url(../assets/fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url(../assets/fonts/Gilroy-Medium.ttf);
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+body {
+    font-family: 'Gilroy';
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #ffffff;
+    height: 88px;
+    padding: 0 248px 0 248px;
+}
+
+.header__container {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #828282;
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+}
+
+.nav__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    text-decoration: none;
+}
+
+.nav__link:hover {
+    color: #070707;
+}
+
+.dmitry-petrov {
+    padding: 0 248px 100px 248px;
+    margin-top: 40px;
+}
+
+.dmitry-petrov__wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.dmitry-petrov__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.description_name {
+    font-family: 'Gilroy';
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+    margin-right: 20px;
+}
+
+.description_about {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.description_lang {
+    font-size: 16px;
+    line-height: 20px;
+    color: #070707;
+    transform: rotate(-90deg);
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.description_lang-ru {
+    color: #828282;
+    text-decoration: none;
+}
+
+.description_lang-ru:hover {
+    color: #070707;
+}
+
+.description_lang-en {
+    color: #070707;
+    text-decoration: none;
+}
+
+.dmitry-petrov__foto {
+    width: 943.61px;
+    height: 387px;
+    padding-top: 0;
+}
+
+.about-me {
+    height: 506px;
+    background: #F6F6F6;
+    padding-top: 120px;
+}
+
+.about-me__heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.about-me__parag {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.skills {
+    height: 610px;
+    background: #FFFFFF;
+    padding-top: 117px;
+}
+
+.skills__heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.skills__parag {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin: 69px 0 84px 0;
+}
+
+.skills-flex__img {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    margin-bottom: 30px;
+}
+
+.skills-flex__parag {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+    margin-bottom: 40px;
+}
+
+.skills-flex__parag p {
+    font-family: 'Gilroy';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.skills-flex__stars {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px 0 50px;
+}
+
+.portfolio {
+    height: auto;
+    background: #F6F6F6;
+    padding-top: 112px;
+}
+
+.portfolio-heading {
+    font-family: 'Gilroy';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.portfolio-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.portfolio-flex__block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 47px 0 100px 0;
+}
+
+.portfolio-a__flex {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-top: 45px;
+}
+
+.portfolio-flex__block:last-child {
+    margin-bottom: 95px;
+}
+
+.contacts {
+    padding-top: 115px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts-heading {
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-parag {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+.contacts-btn {
+    background: #070707;
+    height: 42px;
+    width: 180px;
+    border-radius: 20px;
+    margin: 30px 0 0 80px;
+}
+
+.contacts-btn-text {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.contacts-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.contacts-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+.contacts-btn:hover span {
+    padding-right: 25px;
+  }
+  
+.contacts-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.contacts-web__flex {
+    margin-top: 85px;
+    width: 342px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contacts-like {
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin: 45px 0 130px 0;
+}
